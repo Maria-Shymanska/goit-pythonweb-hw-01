@@ -1,0 +1,21 @@
+[project]
+name = "goit-pythonweb-hw-01"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "'Mariia'",email = "114136940+Maria-Shymanska@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite (>=0.21.0,<0.22.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
